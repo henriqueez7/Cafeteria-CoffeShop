@@ -1,7 +1,7 @@
 .container{
     position: relative;
     height: 100vh;
-    background:rgba(0, 0, 0, 0.5)url(../../assets/Fundo-header.png);
+    background:rgba(0, 0, 0, 0.5)url(../../../public/Fundo-header.png);
     background-blend-mode: darken;
     background-size: cover;
 }
