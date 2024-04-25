@@ -1,6 +1,6 @@
-;import React, {useState} from 'react';
+import React, {useState} from 'react';
 import styles from "./Header.module.css";
-import logo from '../../assets/logo.png';
+import logo from '../../../public/logo.png';
 import Hero from "../Hero/Hero";
 import listmenu from "../../../public/list.svg";
 import fecharmenu from "../../../public/x-circle.svg";
