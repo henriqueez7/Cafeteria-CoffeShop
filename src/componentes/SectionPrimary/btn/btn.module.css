@@ -1,0 +1,26 @@
+.btn {
+    background-color: #241f1f;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 1rem;
+    transition: 1s;
+    color: #fff;
+    text-decoration: none;
+    animation: animate-outline 1s ease-out infinite; /* Adicionando a animação diretamente na classe .btn */
+
+}
+
+.btn:hover {
+    background-color: #2f2727;
+}
+
+@keyframes animate-outline {
+    from {
+        outline: 0px solid #fdfdfd8a;
+    }
+    to {
+        outline: 15px solid #f2f5f800;
+    }
+}
